@@ -38,7 +38,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1dU4E-qKtqdkArG-4MzEO-GZ27i0WdjkT/view?usp=sharing"  target="_blank"
+                  href="https://drive.google.com/file/d/1dU4E-qKtqdkArG-4MzEO-GZ27i0WdjkT/view?usp=sharing"  
                 >
                   Resume
                 </a>
@@ -54,12 +54,12 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              needs. Join me down below and lets get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/Yohanes_der" target="_blank"><AiFillTwitterCircle /></a>
-              <a href="https://www.linkedin.com/in/yohanes-derese-008b22246" target="_blank"><AiFillLinkedin /></a>
-              <a href="tel:+251912814411" target="_blank"><AiOutlinePhone /></a>
+              <a href="https://twitter.com/Yohanes_der"  ><AiFillTwitterCircle /></a>
+              <a href="https://www.linkedin.com/in/yohanes-derese-008b22246"  ><AiFillLinkedin /></a>
+              <a href="tel:+251912814411"  ><AiOutlinePhone /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />

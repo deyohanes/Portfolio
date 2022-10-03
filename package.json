@@ -1,11 +1,11 @@
 {
   "name": "myportfolio",
   "version": "0.1.0",
-  "homepage":"https://deyohanes.github.io/portfolio",
+  "homepage": "https://deyohanes.github.io/portfolio",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "myportfolio -d build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -21,6 +21,7 @@
     "autoprefixer": "^10.4.12",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.17",
     "tailwindcss": "^3.1.8"
   }
